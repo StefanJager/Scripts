@@ -72,6 +72,7 @@ exiftool -r -d "$SORT_DIR"/%Y-%m-%d/%Y-%m-%d_%H%M%S%%-c.%%e "-filename<CreateDat
 
 cd ./"$SORT_DIR"
 
+# Move all folders under $SORT_DIR to $TARGET_DIR.
 for folder in *
 do
 	if [ -d "$folder" ]
