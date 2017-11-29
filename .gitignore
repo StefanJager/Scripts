@@ -1,0 +1,2 @@
+# Uses sj_prepare_upload.sh and contains local default paths.
+sj_prepare_signed_upload.sh 

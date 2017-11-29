@@ -57,6 +57,7 @@ fi
 
 # Check if $TARGET_DIR is indeed a directory.
 if [ ! -d "$TARGET_DIR" ] ; then
+    echo $TARGET_DIR
     echo_error_and_exit "Expected second parameter to be the target directory."
 fi
 
